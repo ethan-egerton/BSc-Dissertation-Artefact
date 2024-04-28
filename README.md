@@ -1,9 +1,12 @@
-# <p style="text-align:center"><B>M</B>idi<B>M</B>eld</p>
+<h1 align="center">
+  <br>
+  <img src="assets/midimeld.png" width="275" alt="MidiMeld Logo, Two M's with an orange background"/>
+  <br>
+  <B>M</B>idi<B>M</B>eld
+  <br>
+</h1>
 
-<p style="text-align:center">
-    <img src="assets/midimeld.png" width="275" alt="MidiMeld Logo, Two M's with an orange backgound"/>
-    </br>
-    </br>
+<p align="center">
     <B>MidiMeld is an application which translates MIDI signals to other actions, available only on Windows and developed using C#.</B>
 </p>
 
