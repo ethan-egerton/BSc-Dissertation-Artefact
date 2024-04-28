@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img src="assets/midimeld.png" width="275" alt="MidiMeld Logo, Two M's with an orange background"/>
+  <img src="source/assets/midimeld.png" width="275" alt="MidiMeld Logo, Two M's with an orange background"/>
   <br>
   <B>M</B>idi<B>M</B>eld
   <br>
@@ -18,11 +18,11 @@
 
 ## How to Use
 
-With the application running, connect any MIDI controller to your computer and select which device to add a translation to using the topbar buttons. Using the "Record" button next to the MIDI signal text box or by observing the MIDI Signal veiwer in the topbar, input which MIDI signal that should be translated.
+With the application running, connect any MIDI controller to your computer and use the topbar buttons to select which device to add a translation to. Input which MIDI signal should be translated using the "Record" button next to the MIDI signal text box or by observing the MIDI Signal viewer in the topbar.
 
-Now with the MIDI signal selected, change the translation type to the desired reaction.
+Now, with the MIDI signal selected, change the translation type to the desired reaction.
 
-Keystroke type allows for simple keysending and also hotkey activation. For special keys such as "Enter" or function keys like "F5", using curly brackets surrounding a special key's name. For modifers, simply typing "Control+", "Alt+", or "Shift+" before the key will activate the modifer. For example:
+The keystroke type allows for simple key sending and hotkey activation. Use curly brackets surrounding a unique key's name for special keys such as "Enter" or function keys like "F5". For modifiers, simply type "Control+", "Alt+", or "Shift+" before the key activates the modifier. For example:
 
 ```
 Alt+{F4}
@@ -32,11 +32,11 @@ Shift+e
 
 Windows Parameter type only currently contains "Volume" which controls allows the control over the default Windows audio device output volume. Primarily used for knobs and dials, this controls volume based on the velocity of the MIDI signal.
 
-Once a translation is set up, when the application detects the desired MIDI signal, it will activate.
+Once a translation is set up, it will activate when the application detects the desired MIDI signal.
 
 ## Installation
 
-Currently, to install this application for use, simply download the .zip folder from the "Releases" section of this Github page. Unzip the folder and run the "MidiMeld.exe" file.
+Currently, to install this application, download the .zip folder from the "Releases" section of this GitHub page, unzip the folder, and run the "MidiMeld.exe" file.
 
 This application <b>only runs on Windows</b>. Whilst this application was developed and tested on Windows 11, it should work from Windows 7+.
 
@@ -45,13 +45,13 @@ This application <b>only runs on Windows</b>. Whilst this application was develo
 Some additional features that should be added to this project are:
 
 * Script Execution
-* Run in background
+* Run in the background
 * Velocity specific reactions
 
 ## Development
 
-This application was developed in C# using Microsoft's WPF for UI. The application was made as an artefact for my dissertation for my Bachelors Of Science degree in Software Engineering. This project is still in early development but aims to rival premium and priced applications in the MIDI translation market.
+This application was developed in C# using Microsoft's WPF for UI as an artefact for my dissertation for my Bachelor of Science degree in Software Engineering. It is still in early development but aims to rival premium and priced applications in the MIDI translation market.
 
 ## Acknowledgments
 
-Without "DryWetMIDI" by "Melanchall", Mike Meinz, and Hamish Chapman, this project would have never been possible. Thank you dearly.
+This project would not have been possible without Melanchall, Mike Meinz, and Hamish Chapman. Thank you dearly.
