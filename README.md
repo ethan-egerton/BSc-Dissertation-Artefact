@@ -54,4 +54,4 @@ This application was developed in C# using Microsoft's WPF for UI as an artefact
 
 ## Acknowledgments
 
-This project would not have been possible without Melanchall, Mike Meinz, and Hamish Chapman. Thank you dearly.
+This project would not have been possible without [Melanchall](https://github.com/melanchall), [Mike Meinz](https://www.codeproject.com/Tips/5358341/Getting-and-Setting-Windows-System-Audio-Volume), and Hamish Chapman. Thank you dearly.
